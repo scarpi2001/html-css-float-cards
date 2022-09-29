@@ -1,0 +1,19 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: ;
+    font-size: 14px;
+}
+
+/* header */
+header{
+    height: 100px;
+    color: rgb(233, 89, 233);
+    /* DEBUG */
+    background-color: blue;
+}
