@@ -46,10 +46,20 @@ header {
 }
 
 .card {
-    height: 80px;
     width: 80%;
-    margin: 30px 10%;
     background-color: rgb(4, 2, 24);
+}
+
+.sinistra {
+    margin: 10% 25%;
+}
+
+.centrale{
+    margin: 10% 10%;
+}
+
+.destra {
+    margin: 10% -5%;
 }
 
 .card::after {
