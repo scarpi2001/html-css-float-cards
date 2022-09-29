@@ -39,6 +39,7 @@ header {
     clear: both;
 }  
 
+/* regole colonna */
 .col {
     width: calc(100% / 3);
     float: left;
@@ -63,6 +64,7 @@ header {
     margin-right: 4%;
 }
 
+/* regole card inside */
 .text {
     margin-bottom: 2%;
 }
