@@ -6,7 +6,7 @@
 }
 
 body {
-    font: ;
+    font-family: 'Fredoka', sans-serif;
     font-size: 16px;
 }
 
@@ -18,53 +18,66 @@ header {
     padding: 30px 0;
     margin-bottom: 2%;
     line-height: 20px;
-    /* DEBUG */
-    background-color: blue;
+    font-family: 'Fredoka One';
 }
 
 /* main */
 .container {
     width: 90%;
     margin: auto;
-    /* DEBUG */
-    background-color: blueviolet;
 }
 
 .container p {
     text-align: center;
     margin-bottom: 2%;
+    font-size: 18px;
 }
 
-.container ::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
 }  
 
-.row {
-    /* DEBUG */
-    background-color: brown;
-    height: 200px;
-}
-
 .col {
     width: calc(100% / 3);
     float: left;
-    /* DEBUG */
-    border: solid 1px black;
-    background-color: aqua;
-    
 }
 
 .card {
     height: 80px;
     width: 80%;
     margin: 30px 10%;
-    /* DEBUG */
-    background-color: black;
+    background-color: rgb(4, 2, 24);
+}
+
+.card::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .card img {
-    max-width: 80px;
+    width: 80px;
     float: left;
+    margin-right: 4%;
+}
+
+.text {
+    margin-bottom: 2%;
+}
+
+.name {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Fredoka One';
+}
+
+.role {
+    color: aliceblue;
+}
+
+.mail {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
 }
