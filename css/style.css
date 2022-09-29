@@ -1,19 +1,70 @@
 /* generali */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font: ;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* header */
-header{
-    height: 100px;
-    color: rgb(233, 89, 233);
+header {
+    height: 80px;
+    color: rgb(207, 55, 207);
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 2%;
+    line-height: 20px;
     /* DEBUG */
     background-color: blue;
+}
+
+/* main */
+.container {
+    width: 90%;
+    margin: auto;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+.container p {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.container ::after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+.row {
+    /* DEBUG */
+    background-color: brown;
+    height: 200px;
+}
+
+.col {
+    width: calc(100% / 3);
+    float: left;
+    /* DEBUG */
+    border: solid 1px black;
+    background-color: aqua;
+    
+}
+
+.card {
+    height: 80px;
+    width: 80%;
+    margin: 30px 10%;
+    /* DEBUG */
+    background-color: black;
+}
+
+.card img {
+    max-width: 80px;
+    float: left;
 }
